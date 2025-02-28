@@ -1,0 +1,75 @@
+# =============== #
+# Unity gitignore #
+# =============== #
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# User-specific settings
+UserSettings/
+*.userprefs
+
+# Logs and databases
+Logs/
+*.log
+*.pidb
+*.suo
+*.svd
+*.sln.cache
+*.ncb
+*.db
+*.opendb
+*.VC.db
+
+# Unity generated folders
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+Logs/
+Packages/
+MemoryCaptures/
+
+# Auto-generated Visual Studio files
+.vscode/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.booproj
+*.svd
+
+# Ignore crash reports
+CrashReports/
+
+# Ignore plugin intermediate files
+Assets/Plugins/*/Android/libs/
+Assets/Plugins/*/Android/bin/
+Assets/Plugins/*/iOS/
+
+# Ignore compiled game files
+*.apk
+*.aab
+*.unitypackage
+
+# Ignore Play mode test results
+Assets/StreamingAssets/UnityPlayModeTestResults.xml
+
+# Rider project files
+.idea/
+*.iml
+
+# LFS (Large File Storage) - If using Unity with large assets, consider LFS
+# ** Uncomment if using Git LFS **
+# *.psd
+# *.tiff
+# *.tga
+# *.wav
+# *.mp4
+# *.avi
+# *.mov
+
